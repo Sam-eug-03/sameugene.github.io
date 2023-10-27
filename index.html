@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
     <title>Local Storage</title>
     <script type="text/javascript">
       const localStorage = window.localStorage;
@@ -61,5 +63,20 @@
     <div id="visitCount"></div>
     <button type="button" onclick="removeCount()">Remove count</button>
     <button type="button" onclick="clearAll()">Clear all</button>
+    <!-- table to display details -->
+    <table>
+      <tr>
+          <td class="title">Name</td>
+          <td class="detail">Samuel Eugene</td>
+      </tr>
+      <tr>
+          <td class="title">Registration number</td>
+          <td class="detail">SCT221-0119/2021</td>
+      </tr>
+      <tr>
+          <td class="title">Passport size photo</td>
+          <td class="detail"><img src="Passport photo.jpeg" alt="Passport Photo" width="50mm" height="50mm"></td>
+      </tr>
+  </table>
   </body>
 </html>
