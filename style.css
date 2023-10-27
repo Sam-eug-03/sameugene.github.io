@@ -1,0 +1,24 @@
+.passport-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+tr {
+  border: 2px solid #000; /* Black solid border for all rows */
+}
+
+td {
+  border: 2px solid #000; /* Black solid border for all cells */
+  padding: 10px;
+}
+
+.title {
+  border-right: none; /* No right border for titles */
+  text-align: right; /* Right-align the title text */
+}
+
+.detail {
+  border-left: none; /* No left border for details */
+  text-align: left; /* Left-align the detail text */
+}
+
